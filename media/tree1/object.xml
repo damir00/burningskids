@@ -1,0 +1,24 @@
+<object
+	mass="1"
+	rot_mass="4"
+	
+	mass_center.x="0"
+	mass_center.y="0"
+>
+
+	<part
+		shape="none"
+		size.x="7"
+		size.y="7"
+		size.z="7"
+		color="color.png"
+		height="height.png"
+		specular="" />
+	<part
+		shape="circle"
+		size.x="0.5"
+		size.y="0.5" 
+		render="false"
+	/>
+
+</object>

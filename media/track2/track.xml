@@ -1,0 +1,58 @@
+<track
+
+	size.x="5000"
+	size.y="5000"
+
+	alpha="media/track2/alpha02.png"
+	color1="media/track2/grass02.jpg"
+	color2="media/track2/gravel01.jpg"
+	color3="media/track2/rock01.jpg"
+	color4="media/track2/sand01.jpg"
+
+	grip1="0.250"
+	grip2="0.250"
+	grip3="0.250"
+	grip4="0.250"
+>
+
+	<road
+		grip="1"
+		color="media/road/01.png"
+		generator="rand-points"
+		rand.points="20"
+	/>
+<!--
+	<road color="media/road/dirt01.png" cyclic="true" grip="1">
+		<point c1.x="-250.714286" c1.y="-67.1428571" c2.x="-55.714286"
+			c2.y="-45.0" pos.x="-145.714286" pos.y="126.571429" width="6" />
+		<point c1.x="6.42857" c1.y="-64.2857141" c2.x="-6.42857" c2.y="64.285712"
+			pos.x="111.42857" pos.y="129.428572" width="6" />
+		<point c1.x="-18.57142" c1.y="-50.0" c2.x="18.57143" c2.y="50.0"
+			pos.x="160.71429" pos.y="40.85714" width="6" />
+		<point c1.x="-12.85715" c1.y="98.57143" c2.x="12.85714" c2.y="-98.57143"
+			pos.x="-2.14286" pos.y="-147.0" width="6" />
+		<point c1.x="-117.85715" c1.y="9.28571" c2.x="117.85714" c2.y="-9.28571"
+			pos.x="82.85714" pos.y="58.0" width="6" />
+		<point c1.x="-55.000001" c1.y="122.85714" c2.x="55.0" c2.y="-122.85715"
+			pos.x="-106.428571" pos.y="-109.14286" width="6" />
+		<point c1.x="35.0" c1.y="35.714289" c2.x="-55.714286" c2.y="-45.0"
+			pos.x="-145.714286" pos.y="126.571429" width="6" />
+	</road>
+-->
+	<road
+		grip="0.5"
+		color="media/road/01.png"
+	>
+		<point pos.x="500" pos.y="-500" c1.x="0" c1.y="0" c2.x="0" c2.y="0" width="4.000000" />
+		<point pos.x="-500" pos.y="500" c1.x="0" c1.y="0" c2.x="0" c2.y="0" width="4.000000" />
+	</road>
+<!--
+	<object
+		pos.x="100"
+		pos.y="10"
+		id="media/tin1/object.xml"
+		static="true"
+		scale="10"
+	/>
+-->
+</track>

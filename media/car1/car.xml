@@ -1,0 +1,93 @@
+<car
+	mass="1"
+	rot_mass="2"
+	
+	mass_center.x="0"
+	mass_center.y="0"
+
+	engine_power="0.2"
+	
+	hook_pos.x="4"
+	hook_pos.y="0" >
+
+	<part
+		size.x="4"
+		size.y="2"
+		size.z="1.5"
+		color="color.png"
+		normal="normal.png"
+		height="height.png"
+		specular="" 
+		shape="quad" />
+
+    <sound
+        engine="media/audio/RacingEngineLoExt.wav"
+        engine_start="media/audio/CarStarter3.wav"/>
+    
+	<tyre
+		pos.x="2"
+		pos.y="0.8"
+		angle="0"
+		powered="true"
+		steerable="true"
+		steer_angle="45" />	
+	<tyre
+		pos.x="2"
+		pos.y="-0.8"
+		angle="0"
+		powered="true"
+		steerable="true"
+		steer_angle="45" />
+	<tyre
+		pos.x="-2"
+		pos.y="1"
+		angle="0"
+		powered="false"
+		steerable="false" />
+	<tyre
+		pos.x="-2"
+		pos.y="-1"
+		angle="0"
+		powered="false"
+		steerable="false" />
+		
+	<light_front
+		texture="media/light.png"
+		size.x="42"
+		size.y="31.2"
+		pos.x="2.2"
+		pos.y="0.64" />
+	<light_front
+		texture="media/light.png"
+		size.x="42"
+		size.y="31.2"
+		pos.x="2.2"
+		pos.y="-0.64" />
+	<light_brake
+		texture="media/brake_light.png"
+		size.x="4"
+		size.y="4"
+		pos.x="-1.8"
+		pos.y="0.73" />
+	<light_brake
+		texture="media/brake_light.png"
+		size.x="4"
+		size.y="4"
+		pos.x="-1.8"
+		pos.y="-0.73" />
+	<light_reverse
+		texture="media/light.png"
+		size.x="4"
+		size.y="4"
+		pos.x="-1.8"
+		pos.y="0.76"
+		angle="180" />
+	<light_reverse
+		texture="media/light.png"
+		size.x="4"
+		size.y="4"
+		pos.x="-1.8"
+		pos.y="-0.76"
+		angle="180" />
+</car>
+

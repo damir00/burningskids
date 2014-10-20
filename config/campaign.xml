@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<campaign start="levelId">
+	<level id="levelId" score="200">
+		<levels>
+			<nextlevel id="nextLevelId1" />
+			<nextlevel id="nextLevelId2" />
+			<nextlevel id="nextLevelId3" />
+		</levels>
+		<cars>
+			<car id="car1" />
+			<car id="car2" />
+			<car id="car3" />
+		</cars>
+	</level>
+	<level id="nextLevelId1" score="200">
+		<levels>
+			<nextlevel id="nextLevelId4" />
+		</levels>
+		<cars>
+			<car id="car4" />
+		</cars>
+	</level>
+	<level id="nextLevelId2" score="200">
+		<cars>
+			<car id="car5" />
+		</cars>
+	</level>
+	<level id="nextLevelId3" score="200">
+		<cars>
+			<car id="car6" />
+		</cars>
+	</level>
+	<level id="nextLevelId4" score="200">
+	</level>
+</campaign>

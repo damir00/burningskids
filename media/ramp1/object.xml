@@ -1,0 +1,19 @@
+<object
+	mass="1"
+	rot_mass="4"
+	
+	mass_center.x="0"
+	mass_center.y="0"
+>
+
+	<part
+		shape="ramp"
+		size.x="10"
+		size.y="10"
+		size.z="2"
+		color="color.png"
+		normal="normal.png"
+		height="height.png"
+		specular="" />
+
+</object>

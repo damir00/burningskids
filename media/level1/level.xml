@@ -1,0 +1,24 @@
+<level
+
+	track="media/track1/track.xml"
+
+	clouds="media/weather/clouds01.png"
+	clouds-scale.x="10"
+	clouds-scale.y="10"
+	clouds-vel.x="0.0001"
+	clouds-vel.y="0.0001"
+
+	ambient-color.r="0.3"
+	ambient-color.g="0.3"
+	ambient-color.b="0.6"
+
+	sun-color.r="1"
+	sun-color.g="1"
+	sun-color.b="0.7"
+
+	sun-dir.x="0.6"
+	sun-dir.y="0.3"
+	sun-dir.z="0.2"
+
+>
+</level>

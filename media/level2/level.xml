@@ -1,0 +1,27 @@
+<level
+
+	track="media/track2/track.xml"
+	clouds="media/weather/clouds01.png"
+
+	game-type="race"
+
+	clouds-scale.x="10"
+	clouds-scale.y="10"
+	clouds-vel.x="0.001"
+	clouds-vel.y="0.001"
+
+	ambient-color.r="0.0013"
+	ambient-color.g="0.0013"
+	ambient-color.b="0.0016"
+
+	sun-color.r="0.00151"
+	sun-color.g="0.00151"
+	sun-color.b="0.00151"
+
+	sun-dir.x="0.6"
+	sun-dir.y="0.3"
+	sun-dir.z="0.2"
+
+>
+</level>
+

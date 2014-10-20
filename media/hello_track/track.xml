@@ -1,0 +1,39 @@
+<track
+
+	size.x="500"
+	size.y="500"
+	
+	alpha="media/track1/alpha02.png"
+	color1="media/track1/grass02.jpg"
+	color2="media/track1/gravel01.jpg"
+	color3="media/track1/rock01.jpg"
+	color4="media/track1/sand01.jpg"
+
+	grip1="0.7"
+	grip2="0.7"
+	grip3="0.7"
+	grip4="0.7"
+>
+
+	<road
+		grip="1"
+		color="media/road/01.png"
+		cyclic="true"
+	>
+		<point pos.x="20.000000" pos.y="30.000000" c1.x="0" c1.y="0" c2.x="0" c2.y="0" width="4.000000" />
+		<point pos.x="-20.000000" pos.y="30.000000" c1.x="-10" c1.y="0" c2.x="10" c2.y="0" width="4.000000" />
+
+		<point pos.x="-30.000000" pos.y="20.000000" c1.x="0" c1.y="-10" c2.x="0" c2.y="10" width="4.000000" />
+		<point pos.x="-30.000000" pos.y="-20.000000" c1.x="0" c1.y="-10" c2.x="0" c2.y="10" width="4.000000" />
+
+		<point pos.x="-20.000000" pos.y="-30.000000" c1.x="10" c1.y="0" c2.x="-10" c2.y="0" width="4.000000" />
+		<point pos.x="20.000000" pos.y="-30.000000" c1.x="10" c1.y="0" c2.x="-10" c2.y="0" width="4.000000" />
+
+		<point pos.x="30.000000" pos.y="-20.000000" c1.x="0" c1.y="10" c2.x="0" c2.y="-10" width="4.000000" />
+		<point pos.x="30.000000" pos.y="20.000000" c1.x="0" c1.y="10" c2.x="0" c2.y="-10" width="4.000000" />
+
+		<point pos.x="20.000000" pos.y="30.000000" c1.x="-0" c1.y="0" c2.x="10" c2.y="0" width="4.000000" />
+
+	</road>	
+
+</track>

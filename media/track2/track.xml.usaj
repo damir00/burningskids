@@ -1,0 +1,15 @@
+<track alpha = "media/test3_track/alpha.png" color1 =
+  "media/track1/grass02.jpg" color2 = "media/track1/gravel01.jpg" color3 =
+  "media/track1/rock01.jpg" color4 = "media/track1/sand01.jpg" grip1 =
+  "0.7" grip2 = "0.7" grip3 = "0.7" grip4 = "0.7" size.x = "400" size.y =
+  "400" > <road color = "media/road/01.png" cyclic = "true" grip =
+  "1" > <point c1.x = "0" c1.y = "0" c2.x = "0" c2.y = "0" pos.x =
+  "-145.714286" pos.y = "126.571429" width = "6" /><point c1.x = "0" c1.y =
+  "0" c2.x = "0" c2.y = "0" pos.x = "111.42857" pos.y = "129.428572" width =
+  "6" /><point c1.x = "0" c1.y = "0" c2.x = "0" c2.y = "0" pos.x =
+  "160.71429" pos.y = "40.85714" width = "6" /><point c1.x = "0" c1.y =
+  "0" c2.x = "0" c2.y = "0" pos.x = "-2.14286" pos.y = "-147.0" width =
+  "6" /><point c1.x = "0" c1.y = "0" c2.x = "0" c2.y = "0" pos.x =
+  "82.85714" pos.y = "58.0" width = "6" /><point c1.x = "0" c1.y = "0" c2.x =
+  "0" c2.y = "0" pos.x = "-106.428571" pos.y = "-109.14286" width =
+  "6" /></road> </track>
